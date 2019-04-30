@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+/demo/restful/mvnw
+/demo/restful/.mvn/
+/demo/restful/.gitignore
+/demo/restful/mvnw.cmd
+/demo/server/.mvn/
+/demo/server/mvnw.cmd
+/demo/server/.gitignore
+/demo/server/mvnw
