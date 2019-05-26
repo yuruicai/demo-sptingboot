@@ -7,3 +7,11 @@
 /demo/server/mvnw.cmd
 /demo/server/.gitignore
 /demo/server/mvnw
+!/demo/eureak-server/mvnw
+!/demo/eureak-server/.gitignore
+!/demo/eureak-server/mvnw.cmd
+!/demo/eureak-server/.mvn/
+/demo/ribbon/.mvn/
+/demo/ribbon/mvnw.cmd
+/demo/ribbon/.gitignore
+/demo/ribbon/mvnw

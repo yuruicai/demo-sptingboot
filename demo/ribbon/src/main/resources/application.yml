@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+# 配置eureka
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+ribbon:
+  # 开启eureka与ribbon的集成
+  eureka:
+    enabled: true
+  # 暂不开启熔断机制
+  hystrix: 
+    enabled: false
+
+# 定义一个针对service-by-properties服务的负载均衡器。服务实例信息来自配置文件
+# 服务名
+service-by-properties:
+  # 服务实例列表
+  listOfServers: http://www.csdn.net,http://www.baidu.com,http://www.dongnaoedu.com
+  ribbon:
+    # 负载策略
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+    # 设置它的服务实例信息来自配置文件, 如果不设置NIWSServerListClassName就会去euereka里面找
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
