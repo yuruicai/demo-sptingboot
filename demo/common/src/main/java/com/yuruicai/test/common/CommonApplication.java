@@ -1,9 +1,4 @@
-package com.yuruicai.test.common; /**
- * @Description:
- * @Author: yrc
- * @CreateDate: 2019/5/18 11:58
- * @UpdateDate: 2019/5/18 11:58
- */
+package com.yuruicai.test.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
