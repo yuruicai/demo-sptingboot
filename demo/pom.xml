@@ -20,6 +20,8 @@
         <module>restful</module>
         <module>server</module>
         <module>eureak-server</module>
+        <module>ribbon</module>
+
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

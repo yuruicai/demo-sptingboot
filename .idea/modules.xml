@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/common/common.iml" filepath="$PROJECT_DIR$/demo/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/demo-sptingboot.iml" filepath="$PROJECT_DIR$/.idea/demo-sptingboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/eureak-server/eureak-server.iml" filepath="$PROJECT_DIR$/demo/eureak-server/eureak-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/restful/resfull.iml" filepath="$PROJECT_DIR$/demo/restful/resfull.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/demo/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/server/server.iml" filepath="$PROJECT_DIR$/demo/server/server.iml" />
+    </modules>
+  </component>
+</project>

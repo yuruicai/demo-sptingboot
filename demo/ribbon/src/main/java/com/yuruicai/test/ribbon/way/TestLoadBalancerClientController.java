@@ -33,7 +33,7 @@ public class TestLoadBalancerClientController {
 	// eureka
 	@RequestMapping("/eureka")
 	public void eureka() {
-		ServiceInstance serviceInstance = loadbalancerClient.choose("lession-4-sms-interface");
+		ServiceInstance serviceInstance = loadbalancerClient.choose("MS-SIMPLE-PROVIDER-USER");
 		logger.warn("TestLoadBalancerClientController.eureka执行结果：{}", serviceInstance.getUri());
 	}
 }

@@ -78,3 +78,7 @@ interface FeignEurekaClient {
 	public String index();
 
 }
+
+
+
+

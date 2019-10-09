@@ -1,9 +1,9 @@
 package com.yuruicai.test.server.springcloud;
 
-import org.springframework.data.repository.PagingAndSortingRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+import com.yuruicai.test.server.springcloud.service.Strategy.SimpleContext;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 //@RepositoryRestResource(collectionResourceRel = "sms", path = "sms")
@@ -15,4 +15,13 @@ public class SmsController /*extends PagingAndSortingRepository<SmsDomain, Long>
     public Object getSms(){
         return "调用smsget方法。。。。。。。。";
     }
+
+    @Autowired
+    private SimpleContext simpleContext;
+
+    @GetMapping("/choose")
+    public String choose(@RequestParam String poolId){
+        return simpleContext.getResource(poolId);
+    }
+
 }

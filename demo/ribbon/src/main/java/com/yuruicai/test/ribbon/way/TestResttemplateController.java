@@ -49,7 +49,7 @@ public class TestResttemplateController {
 	// eureka
 	@RequestMapping("/eureka")
 	public void eureka() {
-		String body = restTemplate.getForObject("http://lession-4-sms-interface/", String.class);
+		String body = restTemplate.getForObject("http://lession-3-sms-interface/", String.class);
 		logger.warn("TestResttemplateController.eureka执行结果：{}", body);
 	}
 

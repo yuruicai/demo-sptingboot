@@ -27,4 +27,8 @@ public class WriteModel extends BaseRowModel {
 
     @ExcelProperty(value = "年龄", index = 2)
     private Integer age;
+
+    public static void main(String[] args) {
+        System.out.println("344567");
+    }
 }
