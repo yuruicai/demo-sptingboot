@@ -1,12 +1,13 @@
 package com.yuruicai.test.server.ConcurrentHashMap;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ConcurrentHashMapDemo {
     private Map<Integer,Integer> cache =new ConcurrentHashMap<>(15);
-
     public static void main(String[]args){
+        new HashMap();
         ConcurrentHashMapDemo ch =    new ConcurrentHashMapDemo();
         System.out.println(ch.fibonaacci(80));
     }
