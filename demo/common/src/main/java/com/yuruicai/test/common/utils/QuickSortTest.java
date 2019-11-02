@@ -12,6 +12,7 @@ public class QuickSortTest {
             List<Integer> same = new ArrayList<>();//相同的
             List<Integer> larger = new ArrayList<>();//较大的
 
+            int index = items.size() / 2;
             Integer chosentItem = items.get(items.size() / 2);
             for (int i = 0; i < items.size(); i++) {
                 if (items.get(i) < chosentItem) {
@@ -42,7 +43,6 @@ public class QuickSortTest {
         objects.add(0);
         objects.add(-1);
         objects.add(6);
-        objects.add(9);
         objects.add(9);
         objects.add(9);
         quickSort(objects);

@@ -2,12 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="838db721-dae5-4722-90db-78e46ca3b887" name="Default" comment="tijiao">
-      <change afterPath="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/TestBeanNameAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/TestPostProcessBeforeInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-ui/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ConcurrentHashMap/ConcurrentHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ConcurrentHashMap/ConcurrentHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/bean/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/bean/PageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/bean/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/api/controller/RibbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/config/JpaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/domin/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/PagingIntercept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jdmk_jmxtools_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jmx_jmxri_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_jms_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/common/common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/utils/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/utils/QuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/common/target/classes/com/yuruicai/test/common/Circlbe$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/common/target/classes/com/yuruicai/test/common/Circlbe$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/common/target/classes/com/yuruicai/test/common/Circlbe$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/common/target/classes/com/yuruicai/test/common/Circlbe$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/common/target/classes/com/yuruicai/test/common/Circlbe$C.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/common/target/classes/com/yuruicai/test/common/Circlbe$C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/common/target/classes/com/yuruicai/test/common/Circlbe.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/common/target/classes/com/yuruicai/test/common/Circlbe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/restful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/restful/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/restful/resfull.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/restful/resfull.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/restful/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/restful/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/VolatileTest/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/countDownTest/VolatileTest/VolatileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/SmsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/SmsDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/SmsDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/countDownTest/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/JpaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/JpaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/RobbinConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/RobbinConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/RobbinNewConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/RobbinNewConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/TransactionalListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/TransactionalListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/ResourceA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/ResourceB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/SimpleContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/service/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/ServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/ServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/springcloud/config/JpaConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/springcloud/config/RobbinConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/springcloud/config/RobbinNewConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/springcloud/config/TransactionalListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/springcloud/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/springcloud/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/springcloud/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/server/target/classes/com/yuruicai/test/server/springcloud/domain/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/demo/common/target/" />
     <ignored path="$PROJECT_DIR$/demo/server/target/" />
@@ -25,14 +93,28 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="package.json" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,50 +131,33 @@
       <find>beanPostProcessors</find>
       <find>earlyApplicationEvents</find>
       <find>postProcessBeforeInitialization</find>
+      <find>protected</find>
+      <find>zoo</find>
+      <find>logger</find>
+      <find>MS-SIMPLE-PROVIDER-USER</find>
+      <find>controller</find>
+      <find>UserService</find>
+      <find>SimpleContext</find>
+      <find>query_cache_size</find>
+      <find>connector</find>
+      <find>v1/user</find>
+      <find>v2/use</find>
+      <find>8761</find>
+      <find>LoadBalanced</find>
     </findStrings>
+    <replaceStrings>
+      <replace>public</replace>
+      <replace>log</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="PATH_TO_GIT" value="D:\Git\bin\git.exe" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/common/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/ribbon/src/main/java/com/yuruicai/test/ribbon/way/TestFeignController.java" />
-        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/CommonApplication.java" />
-        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/study/WrapperDemo.java" />
-        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/easyexcel/model/WriteModel.java" />
-        <option value="$PROJECT_DIR$/demo/server/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/Department.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/Role.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/JpaConfiguration.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/dao/UserRepository.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/dao/DepartmentRepository.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/dao/RoleRepository.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ServerApplication.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/User.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/RobbinNewConfig.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/RobbinConfig.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/demo/ribbon/src/main/java/com/yuruicai/test/ribbon/way/TestResttemplateController.java" />
-        <option value="$PROJECT_DIR$/demo/ribbon/src/main/java/com/yuruicai/test/ribbon/way/TestLoadBalancerClientController.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/ResourceA.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/ResourceB.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/SimpleContext.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/SimpleContext.java" />
-        <option value="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/EureakServerApplication.java" />
-        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/Circlbe.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/SmsController.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/UserService.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/controller.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/TransactionalListener.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/VolatileTest/VolatileTest.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/Test.java" />
-        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ConcurrentHashMap/ConcurrentHashMapDemo.java" />
         <option value="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/TestBeanNameAware.java" />
         <option value="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/TestPostProcessBeforeInitialization.java" />
         <option value="$PROJECT_DIR$/web-ui/package.json" />
@@ -102,19 +167,87 @@
         <option value="$PROJECT_DIR$/web-ui/src/components/HelloWorld.vue" />
         <option value="$PROJECT_DIR$/web-ui/src/App.vue" />
         <option value="$PROJECT_DIR$/web-ui/index.html" />
+        <option value="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/B.java" />
+        <option value="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/A.java" />
+        <option value="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/C.java" />
+        <option value="$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/InsertSortTest.java" />
+        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/utils/QuickSortTest.java" />
+        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/utils/InsertSortTest.java" />
+        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/bean/PageResult.java" />
+        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/PagingIntercept.java" />
+        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/bean/PageVo.java" />
+        <option value="$PROJECT_DIR$/demo/common/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/PagingIntercept.java" />
+        <option value="$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/bean/UserDto.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/UserService.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/controller/UserService.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/UserService.java" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Impl/UserService.java" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/service/serviceImpl/UserService.java" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/service/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/Strategy/ResourceA.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/Strategy/ResourceB.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/controller/SmsController.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/Strategy/SimpleContext.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/JpaConfiguration.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/controller/controller.java" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/api/controller/controller.java" />
+        <option value="$PROJECT_DIR$/demo/server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/User.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/api/controller/ribbonController.java" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/api/controller/RibbonController.java" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/config/JpaConfiguration.java" />
+        <option value="$PROJECT_DIR$/demo/restful/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/domin/User.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ServerApplication.java" />
+        <option value="$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="width" value="1378" />
-    <option name="height" value="773" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -145,47 +278,291 @@
             <path>
               <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureak-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureak-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureak-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resfull" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resfull" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resfull" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resfull" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resfull" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resfull" type="462c0819:PsiDirectoryNode" />
+              <item name="domin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resfull" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resfull" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
-              <item name="web-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="countDownTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-sptingboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-sptingboot" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,17 +580,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/package-lock.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybaits-plugs-master" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yuruicai.test.server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuruicai.test.resfull.config" />
+      <recent name="com.yuruicai.test.resfull.api.controller" />
+      <recent name="com.yuruicai.test.resfull.dao" />
+      <recent name="com.yuruicai.test.resfull.domin" />
+      <recent name="com.yuruicai.test.resfull.service.serviceImpl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\demo-sptingboot\web-ui\js" />
       <recent name="E:\demo-sptingboot\web-ui\css" />
@@ -232,14 +622,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.web-ui">
-    <configuration name="Circlbe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.common.Circlbe" />
-      <module name="common" />
+  <component name="RunManager" selected="Spring Boot.ResfullApplication">
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.eureakserver.C" />
+      <module name="eureak-server" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuruicai.test.common.*" />
+          <option name="PATTERN" value="com.yuruicai.test.common.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,13 +637,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.server.ConcurrentHashMap.ConcurrentHashMapDemo" />
-      <module name="server" />
+    <configuration name="InsertSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.common.utils.InsertSortTest" />
+      <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuruicai.test.server.ConcurrentHashMap.*" />
+          <option name="PATTERN" value="com.yuruicai.test.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.common.utils.QuickSortTest" />
+      <module name="common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuruicai.test.common.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,12 +666,12 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.server.springcloud.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.server.countDownTest.Test" />
       <module name="server" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuruicai.test.server.springcloud.*" />
+          <option name="PATTERN" value="com.yuruicai.test.server.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,26 +680,12 @@
       </method>
     </configuration>
     <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.server.VolatileTest.VolatileTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.server.countDownTest.VolatileTest.VolatileTest" />
       <module name="server" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yuruicai.test.server.VolatileTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuruicai.test.common.easyexcel.model.WriteModel" />
-      <module name="common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuruicai.test.common.easyexcel.model.*" />
+          <option name="PATTERN" value="com.yuruicai.test.server.countDownTest.VolatileTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,11 +769,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.WriteModel" />
-      <item itemvalue="Application.Circlbe" />
-      <item itemvalue="Application.ConcurrentHashMapDemo" />
       <item itemvalue="Application.VolatileTest" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.C" />
+      <item itemvalue="Application.InsertSortTest" />
+      <item itemvalue="Application.QuickSortTest" />
       <item itemvalue="npm.web-ui" />
       <item itemvalue="Spring Boot.CommonApplication" />
       <item itemvalue="Spring Boot.ServerApplication" />
@@ -394,11 +784,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSortTest" />
+        <item itemvalue="Application.InsertSortTest" />
+        <item itemvalue="Application.C" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.ConcurrentHashMapDemo" />
-        <item itemvalue="Application.Circlbe" />
-        <item itemvalue="Application.WriteModel" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +825,9 @@
       <workItem from="1570955997225" duration="6177000" />
       <workItem from="1571472546565" duration="3309000" />
       <workItem from="1571476309519" duration="4100000" />
-      <workItem from="1571576237375" duration="455000" />
+      <workItem from="1571576237375" duration="10596000" />
+      <workItem from="1572437875916" duration="2940000" />
+      <workItem from="1572694700879" duration="12827000" />
     </task>
     <task id="LOCAL-00001" summary="tijiao">
       <created>1560778296879</created>
@@ -451,38 +843,69 @@
       <option name="project" value="LOCAL" />
       <updated>1570633545748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tijiao">
+      <created>1571576734901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571576734901</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tijiao">
+      <created>1571577102969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571577102969</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tijiao">
+      <created>1571666451032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571666451032</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76606000" />
+    <option name="totallyTimeSpent" value="102514000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="0" width="1378" height="773" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2215478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.30559757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5020747" side_tool="true" weight="0.30559757" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921174" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2090909" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33939394" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7704918" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.67540985" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32921174" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49466464" weight="0.33660132" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053354" side_tool="true" weight="0.33833334" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32935917" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3287879" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3287879" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32786885" />
+      <window_info anchor="bottom" id="TypeScript" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -493,8 +916,45 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.12708019" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30559757" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921174" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7704918" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46557376" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32921174" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49466464" weight="0.33660132" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053354" side_tool="true" weight="0.33833334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32935917" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3287879" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32786885" />
+      <window_info anchor="bottom" id="TypeScript" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.23600605" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.12708019" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -525,13 +985,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/SmsController.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/SimpleContext.java</url>
+          <url>file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/Strategy/SimpleContext.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="8" />
@@ -549,7 +1003,7 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/Test.java</url>
+          <url>file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/countDownTest/Test.java</url>
           <line>37</line>
           <properties />
           <option name="timeStamp" value="12" />
@@ -560,389 +1014,452 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/utils/InsertSortTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/utils/QuickSortTest.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/common/src/main/java/com/yuruicai/test/common/utils/QuickSortTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/RestTemplateConfig.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/client/RestTemplate.class</url>
+          <line>156</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/client/RestTemplate.class</url>
+          <line>510</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Impl/UserServiceImpl.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Impl/UserServiceImpl.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/client/RestTemplate.class</url>
+          <line>356</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/event/TransactionalEventListener.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="77">
+          <caret line="724" lean-forward="true" selection-start-line="724" selection-end-line="724" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/config/TransactionalListener.java">
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/TransactionalListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+        <state relative-caret-position="304">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/Strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/Strategy/SimpleContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/Strategy/ResourceB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/Strategy/ResourceA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/PagingIntercept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="53" selection-start-line="53" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class">
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/SmsDomain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="60" column="155" selection-start-line="60" selection-start-column="154" selection-end-line="60" selection-end-column="155" />
+        <state relative-caret-position="38">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/VolatileTest/VolatileTest.java">
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/RobbinConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/controller/SmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/Test.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-parent/Dalston.SR1/spring-cloud-starter-parent-Dalston.SR1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+        <state relative-caret-position="55">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+    <entry file="file://$PROJECT_DIR$/demo/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4940">
-          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+        <state relative-caret-position="-138">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class">
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/ResfullApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/config/JpaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" selection-start-line="18" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/domin/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/JpaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/util/DefaultUriTemplateHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/util/AbstractUriTemplateHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/http/client/support/HttpAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/client/RequestCallback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/eureak-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2.jar!/com/netflix/discovery/shared/transport/decorator/RedirectingEurekaHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/api/controller/RibbonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfigurationImportSelector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ConcurrentHashMap/ConcurrentHashMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="134" column="15" lean-forward="true" selection-start-line="134" selection-start-column="15" selection-end-line="134" selection-end-column="15" />
-          <folding>
-            <element signature="e#19296#19297#0" expanded="true" />
-            <element signature="e#19379#19380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="2228" column="21" lean-forward="true" selection-start-line="2228" selection-start-column="21" selection-end-line="2228" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/HierarchicalBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/core/SimpleAliasRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="589" column="36" lean-forward="true" selection-start-line="589" selection-start-column="36" selection-end-line="589" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/ApplicationEventPublisher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/event/ApplicationEventMulticaster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Value.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3382">
-          <caret line="223" column="17" selection-start-line="223" selection-start-column="12" selection-end-line="223" selection-end-column="19" />
-          <folding>
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-            <element signature="e#12210#12211#0" expanded="true" />
-            <element signature="e#12258#12259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11153">
-          <caret line="630" column="5" selection-start-line="630" selection-start-column="5" selection-end-line="630" selection-end-column="5" />
-          <folding>
-            <element signature="e#32644#32645#0" expanded="true" />
-            <element signature="e#32694#32695#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/EureakServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/TestPostProcessBeforeInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/eureak-server/src/main/java/com/yuruicai/test/eureakserver/TestBeanNameAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/js/vue.js" />
-    <entry file="file://$PROJECT_DIR$/web-ui/vue-交互6.html" />
-    <entry file="file://$PROJECT_DIR$/web-ui/vue简易留言板.html" />
-    <entry file="file://$PROJECT_DIR$/web-ui/vue-style.html" />
-    <entry file="file://$PROJECT_DIR$/web-ui/event.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="1613" column="28" selection-start-line="1613" selection-start-column="28" selection-end-line="1613" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/SmsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="35" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/ServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="190">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/controller.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="190">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="105" column="28" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+          <folding>
+            <element signature="e#4849#4850#0" expanded="true" />
+            <element signature="e#4917#4918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+          <folding>
+            <element signature="e#1886#2512#0" expanded="true" />
+            <element signature="e#2511#2512#0" expanded="true" />
+            <element signature="e#3917#4266#0" expanded="true" />
+            <element signature="e#4265#4266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/config/RestTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/restful/src/main/java/com/yuruicai/test/resfull/service/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Strategy/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/config/prod.env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/index.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/http/client/ClientHttpRequestInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/http/client/support/InterceptingHttpAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/server/src/main/java/com/yuruicai/test/server/springcloud/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
